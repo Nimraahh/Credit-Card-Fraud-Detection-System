@@ -1,0 +1,39 @@
+Risks
+
+1-Friendly fraud:
+Fraud committed by someone who actually knows the fraud victim. The victims in this type of fraud are usually well-known and can be family members, colleagues, neighbors, friends, or acquaintances. Friendly frauds are usually difficult to detect as perpetrators have a fair idea about the victim’s personal information.
+
+2-Bust-out fraud:
+Bust-out fraud is an intentional fraud committed by those consumers who use all the available credit in a particular credit card and then skip  the final payment. In this kind of fraud, the consumer first builds good credit history, applies for a credit card, uses credit and makes regular payments, and finally exhausts all the available credit (bust out) with no intention of paying it back.
+
+3-Cloning:
+Cloning card fraud is when criminals use details on the tracks on the magnetic strip of a credit card to create replica payment cards for committing fraud.
+
+4-Malware:
+Malware is malicious software designed to gain unauthorised access to a database or 
+network or operating system or computer without the consent of the user.
+
+5-Skimming:
+Skimming is the theft of payment card information using skimming devices while someone is performing legitimate transactions such as purchases at grocery stores, malls or any other places.
+
+6-Phishing:
+Phishing card fraud is when a criminal obtains a consumer’s financial or personal information by sending an authentic looking e-mail to them, which in turn lures them to a fake website that looks almost similar to the victim’s institution.
+
+
+
+Risks Mitigation
+
+1-Artificial neural networks
+An artificial neural network is an adaptive system that changes its structure based on internal and external information flowing through the network during the learning, design and modeling phase. They are also used to find patterns in data and which are compared to historical fraud patterns for analysis. While neural networks are used to find relationships and patterns, rules written by fraud specialists are applied to these relationships and patterns to either authorize or deny transactions. 
+
+
+2-Analytics
+Analytics are used to evaluate the transaction activity for a portfolio.This evaluation is used to develop a set of rules for that portfolio to be applied in the authorization process. Fraud specialists use findings from these evaluations to frame rules mainly targeting the transaction characteristics such as nature and location of spending; transaction speed like the rate of card usage by the customer and other known patterns.
+
+
+3-Alerts 
+Alerts are typically sent as an e-mail and/or SMS to cardholders but in some instances companies also make calls to inform the cardholder. Since a transaction must be successful in order to generate an alert, alerts happen after the fact and do not prevent the fraudulent transaction. But alerts do help financial services institutions block payments to fraudulent merchants claiming incorrect amounts and stop payments in cases where the transaction has happened without the knowledge of the consumer.
+
+
+4-Customer-level views 
+Customer-level views identify the like spending patterns of different customers and group them together to monitor subsequent transactions. These methods are used to find suspicious behavior by risk scoring those groups across an organization’s complete portfolio of products and brands. The fraud specialists can then take certain actions on the card usage of these individuals based on the verification results. This helps financial services institutions check for inconsistencies in details submitted by consumers such as the same phone or addresses across different applications.
