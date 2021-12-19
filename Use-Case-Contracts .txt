@@ -1,0 +1,100 @@
+                                                                            Use case contracts: 
+
+1-Operation: EnterHome(int choice) 
+
+Cross Reference: Home 
+
+Pre-Condition: User opens our Credit Card Fraud Detection System and would enter a choice to login or register and home would take him to respective screen. 
+
+Post Condition: User will be able to Login or Register to his account for further procedure. 
+
+2-Operation: Register() 
+
+Cross Reference: Registeration 
+
+Pre-Condition: User can access Register Page via Home..                                                                                                                                                                                                                Post Condition: Now the user will be registered and he can proceed with the system. 
+Post-Condition:User will successfully register himself into Detection System.
+
+
+3-Operation:Details(string name,string bankname,int CVC, int PhoneNumber,string email,decimal CardNumber) 
+
+Cross Reference: Registration
+
+Pre-Condition: User access details section after accessing registration through Home Page.He can write details now.
+
+Post Condition:after registration, he is allowed to login as a registered user
+
+
+4-Operation:userDetails(Details user) 
+
+Cross Reference: registration
+
+Pre-Condition: user would access registration page to enter his details
+
+Post Condition: His details are saved successfully
+
+
+5-Operation:cardDetails(Details card) 
+
+Cross Reference: registration
+
+Pre-Condition: user would access registration page to enter card details
+
+Post Condition:Card details are saved successfully
+
+
+
+6-Operation: login(string password, string username,string email) 
+
+Cross Reference: Login 
+
+Pre-Condition:User access login page through home, and would enter credentials to login to his account.                                                                                                                                                                                                           Post Condition: Now the system will open user’s account and he can use the system.       
+Post-Condition:After Logging in user can perform transaction.
+
+7-Operation:credentialsAuthentication(int choice)
+Cross Reference: authentication
+
+Pre-Condition: user would enter home to login and would enter credentials to verify from database
+
+Post Condition: user will be logged into system, if credentials will be verified, user will be able to proceed else he will have to provide valid information to proceed through the system 
+
+8-Operation: AccessTransaction(Details user, Details card) 
+
+Cross Reference: Transaction 
+
+Pre-Condition: User would access Transaction after Logging into system.So that he can perform transaction.
+
+Post Condition: If there is no fraud detected in transaction pattern and security check, transaction will be done successfully else after 3 unsuccessful attempts,
+the card’s geographical location and amount will be checked and these will be compared to previous transactions.
+If the system will detect any fraud, the user will be notified and the card will get blocked. 
+
+09-Operation:TransactionDetails()
+Cross Reference: Transaction
+Pre-Condition:User accesss transaction page after Logging into system. He would then Enter card owner details,card details,amount to proceed further.
+
+Post Condition: all the details will be sent for transaction verification.After verification transaction is completed
+
+ 
+10-Operation:bankVerification(Details Userdetails, Details Carddetails , TransactionDetails details)
+Cross Reference: Transaction
+
+Pre-Condition: User accesss transaction page after Logging into system and enters his details.His details are sent to bank for verification to proceed for transaction.
+Post Condition:Bank will verify whether the user is associated with bank or not, and if verified , he can proceed with his transaction else he will be asked to enter correct information
+
+
+11-Operation:securityCheck(string []questions)
+Cross Reference:security
+
+Pre-Condition: when user will enter details wrong for the third time he will be directed to a security page.
+
+Post Condition: it will ask user security questions which he provided during registration process and if user will be able these questions correctly, he will be able to proceed else
+his card will be blocked.
+
+
+12-Operation:Transaction Status(bool check) 
+
+Cross Reference: Transaction 
+
+Pre-Condition: If there was no fraud detected, transaction would be done successfully and status will return true,else transaction wolud be failed. 
+
+Post Condition: If there was no fraud detected, user will be able to transfer the amount and transaction status will be true, else transaction status will be false.
