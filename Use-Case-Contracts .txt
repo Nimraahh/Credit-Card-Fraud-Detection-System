@@ -44,7 +44,7 @@ Post Condition:Card details are saved successfully
 
 
 
-6-Operation: login(string password, string username,string email) 
+6-Operation: login(string password, string username) 
 
 Cross Reference: Login 
 
